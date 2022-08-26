@@ -1,1 +1,40 @@
+.card-largura{
+    width: 18rem;
+}
 
+.imagem-carrossel{
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 500px;
+}
+
+.fonte__titulo{
+    font-family:'Pacifico', cursive;
+}
+
+.cor__especial{
+    color: darkred;
+}
+
+.botao-cor-especial{
+    background-color: darkred;
+    border: 1px solid black;
+    transition: 500ms;
+}
+
+.botao-cor-especial:hover{
+    background-color: white;
+    color: black;
+    transition: 500ms;
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.borda{
+    border-color: darkred;
+}
+
+.imagem-card{
+    object-fit: cover;
+    height: 280px;
+}
